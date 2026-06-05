@@ -370,4 +370,5 @@ def main():
     app.run_polling()
 
 if __name__ == "__main__":
-    main()
+def main():
+    app = ApplicationBuilder().token(TOKEN).build()
